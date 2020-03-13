@@ -6,7 +6,7 @@
   <PropertyGroup>
     <TaskFolder Condition=" '$(MSBuildRuntimeType)' == 'Core' ">netstandard2.1</TaskFolder>
     <TaskFolder Condition=" '$(MSBuildRuntimeType)' != 'Core' ">net472</TaskFolder>
-    <TaskAssembly>$(MSBuildThisFileDirectory)..\tasks\$(TaskFolder)\GreetingTasks.dll</TaskAssembly>
+    <TaskAssembly>$(MSBuildThisFileDirectory)..\tasks\$(TaskFolder)\GreetingTasksMindaugas.dll</TaskAssembly>
   </PropertyGroup>
 
   <UsingTask TaskName="MSBuildTasks.SayHello" AssemblyFile="$(TaskAssembly)" />
