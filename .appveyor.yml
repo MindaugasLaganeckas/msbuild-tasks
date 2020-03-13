@@ -26,4 +26,4 @@ artifacts:
 deploy:
   - provider: NuGet
     api_key:
-      secure: $env:NUGET_ORG_KEY
+      secure: oy2gumcvgjc4hsq6xhuq3n5mntn5qo4uxazsfwq56gp56y
