@@ -4,8 +4,8 @@
 -->
 <Project TreatAsLocalProperty="TaskFolder;TaskAssembly">
   <PropertyGroup>
-    <TaskFolder Condition=" '$(MSBuildRuntimeType)' == 'Core' ">netstandard1.6</TaskFolder>
-    <TaskFolder Condition=" '$(MSBuildRuntimeType)' != 'Core' ">net46</TaskFolder>
+    <TaskFolder Condition=" '$(MSBuildRuntimeType)' == 'Core' ">netstandard2.1</TaskFolder>
+    <TaskFolder Condition=" '$(MSBuildRuntimeType)' != 'Core' ">net472</TaskFolder>
     <TaskAssembly>$(MSBuildThisFileDirectory)..\tasks\$(TaskFolder)\GreetingTasks.dll</TaskAssembly>
   </PropertyGroup>
 

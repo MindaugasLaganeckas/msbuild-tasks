@@ -17,3 +17,4 @@ exec dotnet restore ./Source/GreetingTasks/
 exec dotnet pack -c Release ./Source/GreetingTasks/
 exec dotnet restore ./Example/
 exec dotnet msbuild /nologo '/t:Greet;Thank' ./Example/
+exec dotnet nuget push artifacts/*.nupkg -k $NUGET_ORG_KEY -s https://api.nuget.org/v3/index.json
