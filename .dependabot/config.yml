@@ -1,0 +1,6 @@
+﻿version: 2
+
+update_configs:
+  - package_manager: "dotnet:nuget"
+    directory: "Source/GreetingTasks"
+    update_schedule: "live"
