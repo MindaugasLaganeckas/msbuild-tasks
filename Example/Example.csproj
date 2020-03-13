@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GreetingTasks" Version="0.1.0-*" PrivateAssets="All" />
+    <PackageReference Include="GreetingTasksMindaugas" Version="0.1.0-*" PrivateAssets="All" />
   </ItemGroup>
 
   <Target Name="Greet" BeforeTargets="PrepareForBuild">
